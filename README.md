@@ -12,7 +12,7 @@ The first assumption is rarely met, but the credible sets can still be taken to 
 
 The second assumption may be met, perhaps often is, but when it is violated *and* multiple causal variants are in some LD, this simple method may produce completely spurious results.  Caveat emptor!
 
-[1] Jon Wakeifled (2008) Bayes factors for genome-wide association studies: comparison with P-values. Genet Epidemiol DOI: 10.1002/gepi.20359
+[1] Jon Wakefield (2008) Bayes factors for genome-wide association studies: comparison with P-values. Genet Epidemiol DOI: 10.1002/gepi.20359
 
 Files
 -----
