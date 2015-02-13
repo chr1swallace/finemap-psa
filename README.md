@@ -1,7 +1,7 @@
 finemap-psa
 ===========
 
-simple fine mapping script in R used as the basis for analyses in Bowes (??) et. al, Dense genotyping of immune-related susceptibility loci reveals new insights into the genetics of psoriatic arthritis.
+simple fine mapping script in R used as the basis for analyses in [http://www.nature.com/ncomms/2015/150205/ncomms7046/abs/ncomms7046.html](Bowes et. al (2015) Dense genotyping of immune-related susceptibility loci reveals new insights into the genetics of psoriatic arthritis).
 
 Given a number of index SNPs, and complete summary statistics for a dense GWAS (in this case, from ImmunoChip), we can calculate Bayes Factors through Wakefield's approximations [1] and from these we can generate posterior probabilities that a single SNP is causal in the region given two key assumptions:
 - all SNPs have been genotyped
