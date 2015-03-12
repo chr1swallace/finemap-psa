@@ -33,7 +33,7 @@ z <- qnorm(p/2, lower.tail=FALSE)
 x0 <- 0; x1 <- 1; x2 <- 2 # multiplicative model
 d2 <- (1-maf)^2 * x0^2 + 2*maf*(1-maf)*x1 + maf^2 * x2^2
 d1 <- (1-maf)^2 * x0 + 2*maf*(1-maf)*x1 + maf^2 * x2
-V <- (n0 + n1) / ( n0 * n1 * (d2-d1) )
+V <- (n0 + n1) / ( n0 * n1 * (d2-d1^2) )
 ## scale
 scale <- ((n0 + n1)/(scale0 + scale1)) * (scale0/n0) * (scale1/n1)
 V <- V * scale
